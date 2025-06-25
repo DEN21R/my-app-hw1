@@ -1,5 +1,10 @@
+import ImageComponent from "./ImageComponent";
 function App() {
-  return <div>Hi!</div>;
+  return (
+    <div>
+      <ImageComponent />
+    </div>
+  );
 }
 
 export default App;
